@@ -1,4 +1,4 @@
-package de.hglabor.timemod;
+package de.hglabor.timermod;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
@@ -15,8 +15,8 @@ import org.jetbrains.annotations.Nullable;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public final class TimeMod implements ClientModInitializer {
-    public static final Logger LOGGER = LoggerFactory.getLogger("timemod");
+public final class TimerMod implements ClientModInitializer {
+    public static final Logger LOGGER = LoggerFactory.getLogger("timermod");
     private static final String dateFormat = "Day %s";
 
     @Override
