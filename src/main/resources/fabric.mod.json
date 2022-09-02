@@ -8,12 +8,12 @@
     "copyandexecute"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/copyandexecute/timer-mod",
+    "sources": "https://github.com/copyandexecute/timer-mod"
   },
   "license": "CC0-1.0",
   "icon": "assets/timemod/icon.png",
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
     "client": [
       "de.hglabor.timemod.TimeMod"
